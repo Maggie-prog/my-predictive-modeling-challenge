@@ -40,3 +40,44 @@ The primary goal is to build a forecast model that accurately predicts the elect
    ```bash
    git clone https://github.com/Maggie-prog/my-cf-electricity-output-prediction-challange.git
    cd my-cf-electricity-output-prediction-challange
+
+## Exploratory Data Analysis
+### Univariate Analysis
+- **Numerical Variable Distribution**
+    1. Wind Speed Distribution Across 112 Locations:
+        - The wind speed distributions across the 112 different locations approximately follow normal or uniform distributions, with no apparent outliers.
+    2. Wind Speed Distribution Across All Time Points:
+        - The wind speed distributions across all time points also approximately follow normal or uniform distributions, with no apparent outliers.
+    3. Central Tendency:
+        - The mean and median of the wind speed data are similar, indicating a symmetric distribution.
+    4. Decision:
+        - Based on these distributions, we extracted the minimum, maximum, and several key percentiles at each time point to represent the characteristics of the wind speed distribution effectively.
+
+
+- **Categorical Variable Cardinality**
+    1. Categorization Based on Time Points: The data is categorized into various time-related features such as year, month, day, season, weekday, and day/night.
+    2. The proportion of data points in autumn is higher compared to winter and summer. The data points are evenly distributed between weekdays and weekends. Measurements taken at different times of the day are also uniformly distributed.
+
+
+### Bivariate analysis
+- **Numerical analysis - Correlation**
+    1. Our mean wind speed is most correlated with the target value at 0.88, and several other aggregate values also have correlations above 0.7. Therefore, we infer that the distribution of wind speeds from different regions at previous time points is related to the characteristics of the wind speed at the next time point. To avoid overfitting, we can use summary statistics of the wind speeds instead of the original features.
+
+    2. We also checked the wind speeds from different regions, as well as our aggregate wind speed values, for their Pearson and Spearman correlations with the target value. We found that the wind speeds from over 50% of the regions are strongly correlated with the target value.
+
+- **Categorical analysis**
+    Based on ANOVA tests, t-tests, and density curves by subgroup, it is evident that there is a strong correlation between seasons and electricity output. Additionally, there is a noticeable relationship between day/night cycles and electricity output.
+
+
+- **Dual plot：**
+    As we can see, MEAN_WS_smooth, P95_WS_smooth, P5_WS_smooth, and electricity output are strongly correlated.
+
+    The analysis reveals that:
+
+    Wind speeds from previous time points influence the current wind speed.
+    The current wind speed is strongly correlated with electricity output.
+    Thus, it can be concluded that wind speeds from past time points indirectly affect the current electricity output.
+
+### Multivariate Analysis
+
+1. Based on the coefficients from OLS regression and the feature importance from the decision tree, we explored both the linear and nonlinear relationships between features and the target value. This analysis allowed us to perform an initial feature selection.
