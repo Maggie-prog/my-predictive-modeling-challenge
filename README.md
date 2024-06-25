@@ -81,3 +81,35 @@ The primary goal is to build a forecast model that accurately predicts the elect
 ### Multivariate Analysis
 
 1. Based on the coefficients from OLS regression and the feature importance from the decision tree, we explored both the linear and nonlinear relationships between features and the target value. This analysis allowed us to perform an initial feature selection.
+
+## Model Training and Evaluation
+
+### Strategy A（Autogluton Weighted Ensembled L2 regression model）
+We use the current time point's wind speed, as well as features such as season and daylight, to predict the electricity output at the current time, without considering the temporal correlation between different time points.
+
+### Strategy B（LSTM， Multivariate time series forecasting model）
+We use the wind speed information from previous time points (lagging features) to predict the current electricity output, taking into account the temporal correlation between different time points.
+
+## Prediction on New Data
+- Scaling the new data using the previously fitted scaler.
+- Making predictions on the new data.
+- Saving the predictions to an Excel file.
+
+## Results
+The Excel file Wind_data_submission.xlsx and submission_LSTM.xlsx contains the predicted electricity output for the new data.
+
+## Conclusion
+This project demonstrates the application of machine learning techniques to predict electricity output based on wind speed data. The model's performance, evaluated using MAE, provides insights into its accuracy and potential improvements for future work.
+
+## Contributing
+Contributions are welcome! Please follow these steps to contribute:
+
+- Fork the repository.
+- Create a new branch (git checkout -b feature/your-feature-name).
+- Make your changes.
+- Commit your changes (git commit -am 'Add some feature').
+- Push to the branch (git push origin feature/your-feature-name).
+- Open a Pull Request.
+
+## Contact
+For any questions or inquiries, please contact siqizhong322@gmail.com
