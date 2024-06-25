@@ -79,8 +79,7 @@ The primary goal is to build a forecast model that accurately predicts the elect
     Thus, it can be concluded that wind speeds from past time points indirectly affect the current electricity output.
 
 ### Multivariate Analysis
-
-1. Based on the coefficients from OLS regression and the feature importance from the decision tree, we explored both the linear and nonlinear relationships between features and the target value. This analysis allowed us to perform an initial feature selection.
+Based on the coefficients from OLS regression and the feature importance from the decision tree, we explored both the linear and nonlinear relationships between features and the target value. This analysis allowed us to perform an initial feature selection.
 
 ## Model Training and Evaluation
 
@@ -103,13 +102,12 @@ This project demonstrates the application of machine learning techniques to pred
 
 ## Contributing
 Contributions are welcome! Please follow these steps to contribute:
-
-- Fork the repository.
-- Create a new branch (git checkout -b feature/your-feature-name).
-- Make your changes.
-- Commit your changes (git commit -am 'Add some feature').
-- Push to the branch (git push origin feature/your-feature-name).
-- Open a Pull Request.
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature/your-feature-name).
+3. Make your changes.
+4. Commit your changes (git commit -am 'Add some feature').
+5. Push to the branch (git push origin feature/your-feature-name).
+6. Open a Pull Request.
 
 ## Contact
 For any questions or inquiries, please contact siqizhong322@gmail.com
