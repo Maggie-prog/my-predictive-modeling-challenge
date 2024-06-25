@@ -19,10 +19,10 @@ Repository for predictive modeling challenge
 - [Contact](#contact)
 
 ## Introduction
-This project aims to develop a predictive model to forecast the electricity output (CF) of a wind farm based on wind speed data from various locations. The model's performance is evaluated using the Mean Absolute Error (MAE) metric.
+This project aims to develop a predictive model to forecast the electricity output (CF) of a wind farm based on wind speed data from various locations. The model's performance will be evaluated using the Mean Absolute Error (MAE) metric.
 
 ## Project Goal
-The primary goal is to build a robust forecast model that accurately predicts the electricity output (CF) using historical wind speed data.
+The primary goal is to build a forecast model that accurately predicts the electricity output (CF) using historical wind speed data.
 
 ## Data Source
 - **Train Sheet**: Historical data used for training the model.
