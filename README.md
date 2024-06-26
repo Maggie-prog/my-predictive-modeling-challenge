@@ -77,7 +77,7 @@ tensorflow==2.10.1
   <img src="https://github.com/Maggie-prog/my-predictive-modeling-challenge/blob/master/fig/distribution_day_night.png" width="100%">
 </div>
 
-- **Dual plot：**
+- **Dual plot**
 
     As we can see, MEAN_WS_smooth, P95_WS_smooth, P5_WS_smooth, and electricity output are strongly correlated.
 
