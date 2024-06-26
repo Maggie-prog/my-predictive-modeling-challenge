@@ -58,7 +58,7 @@ tensorflow==2.10.1
         - Based on these distributions, we extracted the minimum, maximum, and several key percentiles at each time point to represent the characteristics of the wind speed distribution effectively.
 
 <div align="center">
-  <img src="https://github.com/Maggie-prog/my-predictive-modeling-challenge/blob/master/fig/Time_Series.png" width="50%">
+  <img src="https://github.com/Maggie-prog/my-predictive-modeling-challenge/blob/master/fig/Time_Series.png" width="100%">
 </div>
 - **Categorical Variable Cardinality**
     1. Categorization Based on Time Points: The data is categorized into various time-related features such as year, month, day, season, weekday, and day/night.
