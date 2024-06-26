@@ -106,14 +106,10 @@ The Excel file Wind_data_submission.xlsx and submission_LSTM.xlsx contains the p
 ## Conclusion
 This project demonstrates the application of machine learning techniques to predict electricity output based on wind speed data. The model's performance, evaluated using MAE, provides insights into its accuracy and potential improvements for future work.
 
-## Contributing
-Contributions are welcome! Please follow these steps to contribute:
-1. Fork the repository.
-2. Create a new branch (git checkout -b feature/your-feature-name).
-3. Make your changes.
-4. Commit your changes (git commit -am 'Add some feature').
-5. Push to the branch (git push origin feature/your-feature-name).
-6. Open a Pull Request.
-
 ## Contact
 For any questions or inquiries, please contact siqizhong322@gmail.com
+
+## Discussion and Improvement
+1. 可以花更多时间做更细致的feature selection、更精细的hyperparameter optimization
+2. predictiion interval：可以将目前loss function的MSE改为quantile regression loss
+3. not only point estimate， also precision and variability estimation
