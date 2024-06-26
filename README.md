@@ -99,7 +99,7 @@ Based on the coefficients from OLS regression and the feature importance from th
 ### Strategy A（Autogluton Weighted Ensembled L2 regression model）
 We use the current time point's wind speed, as well as features such as season and daylight, to predict the electricity output at the current time, without considering the temporal correlation between different time points.
 
-### Strategy B（LSTM， Multivariate time series forecasting model）
+### Strategy B（LSTM, Multivariate time series forecasting model）
 We use the wind speed information from previous time points (lagging features) to predict the current electricity output, taking into account the temporal correlation between different time points.
 
 ## Prediction on New Data
@@ -109,6 +109,21 @@ We use the wind speed information from previous time points (lagging features) t
 
 ## Results
 The Excel file Wind_data_submission.xlsx and submission_LSTM.xlsx contains the predicted electricity output for the new data.
+
+True CF vs Predicted CF in Test Set using Autogluton Weighted Ensembled L2 regression model
+<div align="center">
+  <img src="https://github.com/Maggie-prog/my-predictive-modeling-challenge/blob/master/fig/predictions_vs_actuals_strategy_A.png" width="100%">
+</div>
+
+True CF vs Predicted CF in Test Set using LSTM
+<div align="center">
+  <img src="https://github.com/Maggie-prog/my-predictive-modeling-challenge/blob/master/fig/predictions_vs_actuals_strategy_B.png" width="100%">
+</div>
+
+Strategy Comparason on Predict
+<div align="center">
+  <img src="https://github.com/Maggie-prog/my-predictive-modeling-challenge/blob/master/fig/strategy_comparason_predict.png" width="100%">
+</div>
 
 ## Conclusion
 This project demonstrates the application of machine learning techniques to predict electricity output based on wind speed data. The model's performance, evaluated using MAE, provides insights into its accuracy and potential improvements for future work.
