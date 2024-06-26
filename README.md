@@ -1,4 +1,4 @@
-# Wind Farm Electricity Output Prediction
+# Electricity Output Prediction using Wind Speed
 
 ## Table of Contents
 - [Introduction](#introduction)
