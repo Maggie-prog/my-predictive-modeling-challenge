@@ -132,6 +132,16 @@ This project demonstrates the application of machine learning techniques to pred
 For any questions or inquiries, please contact siqizhong322@gmail.com
 
 ## Discussion and Improvement
-1. 可以花更多时间做更细致的feature selection、更精细的hyperparameter optimization
-2. predictiion interval：可以将目前loss function的MSE改为quantile regression loss
-3. not only point estimate， also precision and variability estimation
+
+1. Enhanced Feature Selection and Hyperparameter Optimization: 
+
+Additional time can be invested in performing more detailed feature selection and more precise hyperparameter optimization to improve model performance.
+
+3. Prediction Interval:
+
+To provide prediction intervals, the current loss function (MSE) can be replaced with quantile regression loss, offering a more comprehensive understanding of the model's uncertainty.
+
+3. Beyond Point Estimates:
+
+The analysis can be extended beyond point estimates to include precision and variability estimation, providing a more robust evaluation of the model’s predictive capabilities.
+
