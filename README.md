@@ -1,5 +1,3 @@
-# my-predictive-modeling-challenge
-Repository for predictive modeling challenge 
 # Wind Farm Electricity Output Prediction
 
 ## Table of Contents
