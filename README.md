@@ -30,11 +30,13 @@ The primary goal is to build a forecast model that accurately predicts the elect
 
 ## Setup
 ### Prerequisites
+```
 - Python 3.6 or higher
 - Jupyter Notebook
 - autogluon.tabular==1.1.1
 - keras==2.12.0
 - tensorflow==2.10.1
+```
 
 ### Installation
 1. Clone the repository:
