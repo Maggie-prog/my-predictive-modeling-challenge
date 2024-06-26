@@ -73,7 +73,10 @@ tensorflow==2.10.1
 
 - **Categorical analysis**
     Based on ANOVA tests, t-tests, and density curves by subgroup, it is evident that there is a strong correlation between seasons and electricity output. Additionally, there is a noticeable relationship between day/night cycles and electricity output.
-
+  
+<div align="center">
+  <img src="https://github.com/Maggie-prog/my-predictive-modeling-challenge/blob/master/fig/distribution_day_night.png" width="100%">
+</div>
 
 - **Dual plot：**
     As we can see, MEAN_WS_smooth, P95_WS_smooth, P5_WS_smooth, and electricity output are strongly correlated.
@@ -83,6 +86,10 @@ tensorflow==2.10.1
     Wind speeds from previous time points influence the current wind speed.
     The current wind speed is strongly correlated with electricity output.
     Thus, it can be concluded that wind speeds from past time points indirectly affect the current electricity output.
+
+<div align="center">
+  <img src="https://github.com/Maggie-prog/my-predictive-modeling-challenge/blob/master/fig/Time_Series.png" width="100%">
+</div>
 
 ### Multivariate Analysis
 Based on the coefficients from OLS regression and the feature importance from the decision tree, we explored both the linear and nonlinear relationships between features and the target value. This analysis allowed us to perform an initial feature selection.
