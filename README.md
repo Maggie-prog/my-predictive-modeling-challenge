@@ -122,7 +122,7 @@ True CF vs Predicted CF in Test Set using LSTM
 
 Strategy Comparason on Predict
 <div align="center">
-  <img src="https://github.com/Maggie-prog/my-predictive-modeling-challenge/blob/master/fig/strategy_comparason_predict.png" width="100%">
+  <img src="https://github.com/Maggie-prog/my-predictive-modeling-challenge/blob/master/fig/strategy_comparason_predict.png" width="50%">
 </div>
 
 ## Conclusion
