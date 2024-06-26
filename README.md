@@ -109,9 +109,10 @@ We use the wind speed information from previous time points (lagging features) t
 
 ## Results
 The Excel file **Wind_data_submission.xlsx** contains predicted electricity output for the new data based on **Strategy A**.
+
 The Excel file **submission_LSTM.xlsx** contains predicted electricity output for the new data based on **Strategy B**.
 
-For your convenience, I conclude two results into **submission_of_two_strategy.xlsx**
+For your convenience, I concluded two results into **submission_of_two_strategy.xlsx**.
 
 True CF vs Predicted CF in Test Set using Autogluton Weighted Ensembled L2 regression model:
 <div align="center">
