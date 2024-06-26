@@ -110,17 +110,17 @@ We use the wind speed information from previous time points (lagging features) t
 ## Results
 The Excel file Wind_data_submission.xlsx and submission_LSTM.xlsx contains the predicted electricity output for the new data.
 
-True CF vs Predicted CF in Test Set using Autogluton Weighted Ensembled L2 regression model
+True CF vs Predicted CF in Test Set using Autogluton Weighted Ensembled L2 regression model:
 <div align="center">
   <img src="https://github.com/Maggie-prog/my-predictive-modeling-challenge/blob/master/fig/predictions_vs_actuals_strategy_A.png" width="100%">
 </div>
 
-True CF vs Predicted CF in Test Set using LSTM
+True CF vs Predicted CF in Test Set using LSTM:
 <div align="center">
   <img src="https://github.com/Maggie-prog/my-predictive-modeling-challenge/blob/master/fig/predictions_vs_actuals_strategy_B.png" width="100%">
 </div>
 
-Strategy Comparason on Predict
+Strategy Comparason on Predict:
 <div align="center">
   <img src="https://github.com/Maggie-prog/my-predictive-modeling-challenge/blob/master/fig/strategy_comparason_predict.png" width="50%">
 </div>
