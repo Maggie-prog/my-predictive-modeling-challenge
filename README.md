@@ -5,16 +5,14 @@
 - [Project Goal](#project-goal)
 - [Data Source](#data-source)
 - [Setup](#setup)
-- [Usage](#usage)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Feature Engineering](#feature-engineering)
 - [Model Training and Evaluation](#model-training-and-evaluation)
 - [Prediction on New Data](#prediction-on-new-data)
 - [Results](#results)
 - [Conclusion](#conclusion)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
+- [Discussion and Improvement](#discussion-and-improvement)
 
 ## Introduction
 This project aims to develop a predictive model to forecast the electricity output (CF) of a wind farm based on wind speed data from various locations. The model's performance will be evaluated using the Mean Absolute Error (MAE) metric.
@@ -80,6 +78,7 @@ tensorflow==2.10.1
 </div>
 
 - **Dual plot：**
+
     As we can see, MEAN_WS_smooth, P95_WS_smooth, P5_WS_smooth, and electricity output are strongly correlated.
 
     The analysis reveals that:
