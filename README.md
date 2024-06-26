@@ -72,7 +72,8 @@ tensorflow==2.10.1
     2. We also checked the wind speeds from different regions, as well as our aggregate wind speed values, for their Pearson and Spearman correlations with the target value. We found that the wind speeds from over 50% of the regions are strongly correlated with the target value.
 
 - **Categorical analysis**
-    Based on ANOVA tests, t-tests, and density curves by subgroup, it is evident that there is a strong correlation between seasons and electricity output. Additionally, there is a noticeable relationship between day/night cycles and electricity output.
+
+  Based on ANOVA tests, t-tests, and density curves by subgroup, it is evident that there is a strong correlation between seasons and electricity output. Additionally, there is a noticeable relationship between day/night cycles and electricity output.
   
 <div align="center">
   <img src="https://github.com/Maggie-prog/my-predictive-modeling-challenge/blob/master/fig/distribution_day_night.png" width="100%">
